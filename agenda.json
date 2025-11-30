@@ -228,6 +228,57 @@
     ]
   },
   {
+    "title": "The 3 Core Principles Of A Successful Educational Program In A Game Studio",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "13:30",
+    "end_time": "13:55",
+    "language": "English",
+    "level": "Industry Support",
+    "abstract": "In today’s evolving game industry, impactful learning isn’t just about courses or tutorials—it’s about building an environment where creativity and innovation thrive, both internally and in your player community. Drawing from my journey at BUas and Bohemia Interactive, where I organized game jams and modding boot camps, I’ll share a distilled framework: Accessibility, Engagement, and Sustainability.",
+    "speakers": [
+      {
+        "name": "Emanuele Ardolino",
+        "company": "Bohemia Interactive",
+        "bio": "Emanuele Ardolino, Producer at Bohemia Interactive currently working on Arma Reforger and Arma 4. With a background in art history and exhibition curation - he moved to the gaming industry aiming to create engaging video game experiences blending art, entertainment and fun."
+      }
+    ]
+  },
+  {
+    "title": "Mafia: The Old Country: Using MetaHuman in a AAA Character Pipeline",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "13:30",
+    "end_time": "14:20",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "Walkthrough of the Metahuman technology integration for Mafia: The Old Country, behind the scenes of the heads and hair assets creation.",
+    "speakers": [
+      {
+        "name": "Ivan Čerevko",
+        "company": "Hangar 13",
+        "bio": "Ivan Cerevko is a Principal Character Artist with over 13 years of experience in the game industry. He began his career at Warhorse Studios, where he contributed to the critically acclaimed Kingdom Come: Deliverance and its sequel, Kingdom Come: Deliverance II. In his recent role at Hangar 13, he continues to push artistic and technical boundaries on the game Mafia: The Old Country."
+      }
+    ]
+  },
+  {
+    "title": "Build Your Franchise Vision Early: 10 most common mistakes",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "13:30",
+    "end_time": "14:20",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Building a franchise is important if you want a sustainable studio. It is also the potential investors and publishers look for. Is there an ownable and protectable IP? Does it connect emotionally? Will it stand out? Is it protectable? Christian Fonnesbech will share the most common mistakes found from working with many developers and publishers across the world.",
+    "speakers": [
+      {
+        "name": "Christian Fonnesbech",
+        "company": "Leverage",
+        "bio": "Founder and Head of IP Development at Leverage, partnering with games companies to develop lasting franchises and brands. Recent clients include Bandai Namco, Raw Fury and Funcom. Christian focuses on crafting the roots of a project into lasting global properties and brands. With a background spanning 35+ game projects, 100s of consulting projects, and leadership roles at Nordisk Games and Interactive Media Arts, Christian brings practical insights into IPs & franchises."
+      }
+    ]
+  },
+  {
     "title": "",
     "room": "",
     "day": "2025-12-05",
