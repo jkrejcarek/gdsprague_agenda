@@ -279,13 +279,433 @@
     ]
   },
   {
+    "title": "Learnings from 40 years games industry",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "14:30",
+    "end_time": "15:20",
+    "language": "English",
+    "level": "Business",
+    "abstract": "I have been making games for over 40 years. A lot of things changed, but many remained the same, so we can all learn from them. So, will walk through some of these key learnings which still apply today and also kill some myths I am hearing again and again just to show you how ridiculous they are from today. At last I try to show you where we are heading from now on in our awesome industry.",
+    "speakers": [
+      {
+        "name": "Teut Weidemann",
+        "company": "Freelance Consultant",
+        "bio": "Teut Weidemann is a game producer for nearly 40 years now and works as a freelance consultant for f2p & GaaS since 2007, with clients like Supercell, Ubisoft, Jagex, Rovio, Techland, CD Project among his clients. He ran his own dev studio for 10 years with an exit and was CEO of CDG AG. He worked on over 100 titles on most platforms since 8bit was born. He is a well known & awarded keynote speaker and loves to share his passion for everything games."
+      }
+    ]
+  },
+  {
+    "title": "The Road to Cyberpunk 2077 and Building a Career Beyond the Dream Project",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Other",
+    "abstract": "A behind-the-scenes look at how Csaba started his career and reached the Cyberpunk 2077 development team, what he learned along the way, and why he eventually chose a new direction. It’s not just about the big project. It’s about growth, change, and discovering what truly matters in your career.",
+    "speakers": [
+      {
+        "name": "Csaba Szilagyi",
+        "company": "North Beach Games Prague",
+        "bio": "Csaba is the Art Director at North Beach Games Prague with 20+ years of experience, specializing in hard-surface modelling. He has contributed to major titles such as Cyberpunk 2077, The Witcher 3, Metal Eden, Crysis 3, Ryse: Son of Rome and many more."
+      }
+    ]
+  },
+  {
+    "title": "Mafia the Old Country | Seamless Cinematics Deep Dive",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "Join us for a deep dive into the creation process of seamless transition between gameplay and cinematics, as we developed them in Mafia: The Old Country. Learn how to keep players engaged and make cinematics feel like an integral part of the game world. Explore practical approaches, do's and don'ts, and how to avoid common but costly pitfalls, that will keep your producer happy. From narrative to planning, from design to tech, from mocap to animation, we'll break down how to get rid of the cut!",
+    "speakers": [
+      {
+        "name": "Theodore Hilhorst",
+        "company": "2K Czech",
+        "bio": "Senior technical mission designer working on AAA titles, client-based work, and personal projects for over 10 years. Although recently I'm mostly known for my work on Mafia the Old Country doing missions 4 (Il Barone) & 10 (La Festa), building technically complex set pieces and of course the seamles stransitions. During this conference I'll present a talk about Seamless Transitions together with the cinematic artist: Igor Sobolev"
+      },
+      {
+        "name": "Igor Sobolev",
+        "company": "",
+        "bio": "cinematic artist"
+      }
+    ]
+  },
+  {
+    "title": "Designing Across Changing Dimensions",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "14:30",
+    "end_time": "14:55",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Giving players real-time control to switch between dimensions—each changing how the world looks, behaves, and plays—creates unique design and technical challenges. This talk explores how our team tackled these during the development of Cosmo Tales, sharing key problems, solutions, and insights for keeping constantly shifting game states fun, clear, and cohesive.",
+    "speakers": [
+      {
+        "name": "Jan Vaněček",
+        "company": "Bohemia Interactive",
+        "bio": "Jan began his career designing board and card games before moving into video games at Geewa, where he designed the mobile RPG Smashing Four. He later joined Keen Software House, leading the live operations of Space Engineers and initiating development on its sequel. Jan now works at Bohemia Interactive, developing a brand-new space adventure titled Cosmo Tales."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Global Game Publishing Today: Strategies, Risks & How to Succeed",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "The panel brings together leading experts from global publishing to discuss the realities of today’s games industry. Vladimír moderates a deep dive into securing a publisher, releasing your game, and what both developers and publishers must know in 2025+. Joining him are directors Anton Ravin (Fulqrum Publishing), Mario Gerhold (ex-Koch Media/Plaion, My.Games), Guillaume Jamet (ex–Plug In Digital), and Tomáš Pšenička (North Beach Games), who will share their perspectives on current challenges.",
+    "speakers": [
+      {
+        "name": "Vladimír Geršl",
+        "company": "Cyber Sail Consulting",
+        "bio": "Vladimír Geršl is a game producer, entrepreneur, and CEO of Cyber Sail Consulting. He has nearly 25 years of experience in the games business and has worked long-term with companies such as Activision, Sony, and Plaion. He directly led eight premium titles and helped dozens of studios secure publishing or investment. He runs one of the globally leading consulting agencies in the games industry and is actively involved in industry lobbying in both the Czech Republic and the EU."
+      },
+      {
+        "name": "Anton Ravin"
+      },
+      {
+        "name": "Tomas Psenicka"
+      },
+      {
+        "name": "Mario Gerhold"
+      },
+      {
+        "name": "Guillaume Jamet"
+      }
+    ]
+  },
+  {
+    "title": "The Long Game: Evolving from Startup to Sustainable Studio",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "In gaming, early success can be brief—sustaining success long-term requires vision, resilience, and constant reinvention. Vlad Ceraldi offers insights from his career and on Offworld’s 10-year journey from startup beginnings to a global studio, sharing valuable lessons on growth, community, leadership, and the business mechanics behind creative independence. Attendees will leave with practical tips to grow responsibly while staying true to their core values.",
+    "speakers": [
+      {
+        "name": "Vlad Ceraldi",
+        "company": "Offworld",
+        "bio": "Vlad is the CEO of Offworld and a gaming executive with over 25 years of experience building and leading companies, studios, and teams to deliver top-performing games across various platforms. He has held diverse roles throughout his career, including Lead Programmer, Technical Director, Producer, Executive Producer, SVP of Studios, and CEO."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Deals That Define the Game: Inside the World of Gaming Transactions",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "From billion-dollar acquisitions to strategic investments, M&A is reshaping the gaming landscape. But are these deals a launchpad to global success or a shortcut to losing creative control? This session brings together top experts who have been behind some of the most influential gaming transactions, including deals involving Embracer Group, Geewa, Warhorse or Tripledot Studios. If you are a rising studio eyeing growth or an investor scouting the next breakout hit, this is must-attend session.",
+    "speakers": [
+      {
+        "name": "Michał Pękała",
+        "company": "Legal",
+        "bio": "An advocate, a partner and head of the Video Games & Entertainment practice of Rymarz Zdort Maruta. Has extensive experience in advising entities from the video game industry such as developers, publishers, industry investors, asset providers, freelancers, and influencers, as well as e-sports teams. Also advises on financing transactions for gaming entities and is a legal expert for WIPO (World Intellectual Property Organisation) in relation to video games."
+      }
+    ]
+  },
+  {
+    "title": "The Hidden Complexity of Branched Dialogues in Kingdom Come: Deliverance 2",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "A look into the process of creating branching dialogues in Kingdom Come: Deliverance 2. What makes them feel realistic, how players can influence what NPCs (don’t) tell them, where unexpected complications arise, what to avoid, and what remains hidden from the players.",
+    "speakers": [
+      {
+        "name": "Martina Daněk",
+        "company": "Warhorse Studios",
+        "bio": "Narrative Designer at Warhorse Studios, Voice-Over Director, and Editor. I joined Warhorse in 2020 as a Junior Quest Designer on a secret, codenamed project that was released this year under the title Kingdom Come: Deliverance 2. During my time on the game, I helped craft immersive stories for various quests, wrote dialogue, and oversaw some of the romantic plotlines. Later in development, I also directed the English voice-overs."
+      }
+    ]
+  },
+  {
+    "title": "Kromlech: Between Sword and Myth – How to Build Fantasy That Respects History",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "15:00",
+    "end_time": "15:25",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Fantasy often borrows from history, but rarely understands it. Kromlech draws from the material culture of La Tène Europe — from real weapons, garments, and architecture — and reshapes it into a world of sword & sorcery. This talk explores how historical accuracy can strengthen both authenticity and atmosphere in a fictional world, and why history should be treated not as a backdrop, but as a tool for world-building identity. In short, how to design a world where magic and ritual feel believable",
+    "speakers": [
+      {
+        "name": "Milan Hrycjuk",
+        "company": "Perun Creative",
+        "bio": "Milan Hrycjuk is a game designer at Perun Creative, currently working on the roguelite action RPG Kromlech. With a background in film directing and UX/UI design, he approaches games as a dialogue between story, space, and player intent. Years of LARP design and Celtic La Tène reenactment shape his view of authenticity and myth as two sides of the same creative process."
+      }
+    ]
+  },
+  {
+    "title": "Music System Case Study - The Many Faces of FMOD",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "16:00",
+    "end_time": "16:25",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "On this rather short talk, I'll try to show you how I use the internal logic of FMOD middleware to deliver a specific music system functionality through two different approaches. An event structure can look different and have different means of control while still achieving the same goal. In short, I will showcase FMOD's visual verstaility and adaptability to one's personal preferences. We will compare the capabilities of parameter sheet timeline versus the event timeline, in mere 25 minutes.",
+    "speakers": [
+      {
+        "name": "David Wurczel",
+        "company": "Warhorse Studios",
+        "bio": "Don't really enjoy writing about myself! Gonna make it short. I'm a gamer, music composer, classical guitarist, sound designer and technical audio designer in games. If you played KCD:2 or Volcanoids, you might have already heard some of my work. I spend most of my time at Warhorse Studios but I'm also writing music for Crimson Capes (Poor Locke), last year's GDS Best Pitch winners and a few other smaller game titles like Magna Regna or Knightcraft."
+      }
+    ]
+  },
+  {
+    "title": "Old narrative tropes unexplored even today",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "16:30",
+    "end_time": "16:55",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Ways of narration: Old narrative tropes unexplored even today. Players love things that are familiar yet somehow unknown. But have you asked yourself: What is the unknown to the modern world? During the talk, you will learn multiple tropes in narration that intrigued us were called innovative yet we don't see them present in most of the games. This tool might give you leverage to check if your game has something unique to offer or create new ideas based on the presented thinking patterns. The partner of the talk is the Creative Europe MEDIA Desk CZ.",
+    "speakers": [
+      {
+        "name": "Radosław Klasa",
+        "company": "Fighting Dreamers",
+        "bio": "I have worked both in small indie companies and AAA companies since 2017. Co-creator of the Gamedevowe Pogaduchy initiative, which integrates the Polish community. Advisory Board member for Game Industry Conference (GIC). Always keen to promote the game dev industry to new generations and help the broken, the beaten and the damned. Passionate about exploring new and original mechanics that enhance game narration and aesthetics."
+      }
+    ]
+  },
+  {
+    "title": "Kingdom Come: Deliverance II – Chasing 60 FPS In An Open-world RPG",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "This talk shares lessons learned from optimizing Kingdom Come: Deliverance II to meet its performance targets. We will look at how we profile and measure performance in a large open-world game, the pitfalls we hit when trying to understand how the game actually runs, and the approaches that proved most useful. The second half of the session walks through a mix of optimization tips and techniques that proved effective for us in practice.",
+    "speakers": [
+      {
+        "name": "Martin Matouš",
+        "company": "Warhorse Studios",
+        "bio": "Martin Matouš is a programmer at Warhorse Studios with seven years of gamedev experience. He initially worked on core gameplay systems, contributing to features such as the dialogue and quest systems, and later focused on engine improvements, optimization, and overall game performance."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Power-Up for Developers: Financing Games Through the New Czech Video Game Incentives Scheme",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "The Czech Republic has introduced a new incentive scheme for video game development under the Czech Audiovisual Fund. This panel will unpack how the program works, who will it benefit, and its potential impact on the Czech gaming ecosystem. Join leading experts as we explore eligibility, timeframe, positive and critical voices on the scheme and whether this initiative can truly level up the Czech gaming industry.",
+    "speakers": [
+      {
+        "name": "Pavel Barák",
+        "company": "Czech Game Developers Association",
+        "bio": "Pavel has been active in the game industry for more than 20 years. A co-founder and chairman of the Czech Game Developers Association (GDACZ). For the past ten years, he has been the director of the oldest independent game development conference in Europe, the Game Developers Session, which is also one of the largest game conferences in the region. In 2005, he founded Handjoy, a game development studio that specializes in mobile and advertising games and has released more than 10 titles."
+      },
+      {
+        "name": "David Šemík"
+      },
+      {
+        "name": "Jarek Kolář"
+      },
+      {
+        "name": "Tereza Roller-Sabella"
+      },
+      {
+        "name": "Petr Bratský"
+      },
+      {
+        "name": "Roman Hladík"
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Clone Wars",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "Where does homage end and cloning begin? Join industry experts as they unpack the hottest controversies in look-alike games, reveal how far inspiration can legally go, and spotlight the creative and business risks every studio should watch for. A sharp, energetic session for anyone in an industry where originality is both a challenge and an opportunity.",
+    "speakers": [
+      {
+        "name": "Kostyantyn Lobov",
+        "company": "Harbottle & Lewis",
+        "bio": "Kostya is a partner and co-head of the interactive entertainment practice at Harbottle & Lewis. He works extensively with clients in the video game and esports sectors, including studios and publishers of all sizes. His client base also includes brand owners, production companies and tech startups. They range in size from SMEs to multinational corporations. Kostya is recognised as a leading lawyer in The Legal 500, IP Stars and Chambers and Partners."
+      },
+      {
+        "name": "Michal Kandráč"
+      },
+      {
+        "name": "Tomasz Gadomski"
+      },
+      {
+        "name": "Antonín Dvořák"
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Safe Mode Activated: AI in Games Without Breaking the Rules",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "AI is transforming the way games are developed. But as AI becomes integral to creative pipelines, it also raises tough legal and ethical questions. We’ll explore how studios are integrating AI into their daily workflows, not only to accelerate production but to build practical governance approaches that support responsible use. Expect a clear, practical look at IP risks, emerging regulatory expectations, and the concrete steps developers can take to stay compliant without slowing innovation.",
+    "speakers": [
+      {
+        "name": "Nick Allan",
+        "company": "Legal",
+        "bio": "Nick is a video games lawyer and a partner at Mishcon de Reya in London. Nick’s practice focuses on the $200 billion global video games industry, including PC, console, mobile, web-browser and VR/AR games. Has been recognised by Chambers and Partners and the Legal 500 as a leading practitioner in respect of video games. Nick specialises in contract negotiations, including development, publishing and licensing deals, as well as advice in respect of intellectual property and regulatory matters."
+      },
+      {
+        "name": "Maciej Konstańczak"
+      },
+      {
+        "name": "Tomas Hedman"
+      },
+      {
+        "name": "Lukáš Mrázik"
+      },
+      {
+        "name": "Antonín Dvořák"
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Get Funded! How to benefit from national funding in other EU countries?",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "How can you benefit from national public and private funding opportunities in other EU countries? In this panel, EGDF board members will discuss the funding instruments available in their countries and how you can benefit from them.",
+    "speakers": [
+      {
+        "name": "Jari-Pekka Kaleva",
+        "company": "EGDF",
+        "bio": "Jari-Pekka Kaleva is an institution nerd helping the game industry geeks to revolutionise the world we live in. At the moment, he works as Managing Director at the European game industry umbrella organisation EGDF and as Chief Policy Advisor at Neogames Finland association. He has more than a decade of experience tracking both national and EU level political decision making from the game industry’s point of view."
+      },
+      {
+        "name": "Gediminas Tarasevicius"
+      },
+      {
+        "name": "Martine Spaans"
+      },
+      {
+        "name": "David Rabineau"
+      },
+      {
+        "name": "KooPee Hiltunen"
+      },
+      {
+        "name": "Hendrik Lesser"
+      },
+      {
+        "name": "Per Strömbäck"
+      },
+      {
+        "name": "Jakub Marszalkowski"
+      }
+    ]
+  },
+  {
+    "title": "Sources of narrative craft from industry's best",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "This report is reflection of personal experience and over 40 interviews with top narrative experts of the industry conducted as part of the bigger project. We will discuss what hints and tips are used by many interviewed Narrative designers, what software is their favorite and why, what books do they advice to use and what do they advice to colleagues the industry. Together we will discuss insights and learn from industry veterans.",
+    "speakers": [
+      {
+        "name": "Yaraslau Kot",
+        "company": "EHU / Bajka Games",
+        "bio": "Game designer and narrative designer since 1996. Is PhD, LLM, MPsych. Works in Bajka Games studio and at A little Bit Different Studio, Research Fellow at European Humanities University. He worked on many tabletop, larp and video games. Among them such titles as: Eastern Frontier: 1581; It Lurks Below; RhyDin; Lands of Evermore; Vampires the Masquerade: St. Louis by Night Online; Chernobylite 1-2; Proze; Replaced; Raccoon Mania; Green City Harvest, etc. Author of books and articles."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - How To Grow And Develop Sustainable Game Industry Clusters",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Industry Support",
+    "abstract": "GAME-ER is a 36-month research project funded by HORIZON Europe and UKRI, dedicated to understanding the unique dynamics of local and regional video game clusters. We aim to provide policymakers and decision-makers with the knowledge and tools needed to foster thriving video game clusters.",
+    "speakers": [
+      {
+        "name": "Michal Roch",
+        "company": "Honestly Games",
+        "bio": "Michal is in the industry for more than 15 years, starting his career in Keen Software House and eventually kickstarting his own studio Honestly Games and launching a successful indie title Lords & Villeins. He spent several years in Swedish incubator Spelkollektivet, met hundreds of indie devs all around the world and currently works with the Czech Gamedev Association, helps organizing the GDS Prague and manages the Prague Gamedev Accelerator."
+      },
+      {
+        "name": "Roman Hladík"
+      },
+      {
+        "name": "Jan Houška"
+      }
+    ]
+  },
+  {
+    "title": "Gamebadges - Educator Stakeholder Meeting",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Industry Support",
+    "abstract": "Gamebadges – a European-wide, competence-based badge ecosystem designed to align education with industry demands – has reached its piloting phase! We are happy to invite any game develpment educators to this meeting to find out more about how this project can improve their teaching and help their students on their journey.",
+    "speakers": [
+      {
+        "name": "David Šosvald",
+        "company": "Charles University",
+        "bio": "David Šosvald graduated from Charles University in 2023 with a degree in Visual Computing and Game Development. Now pursuing a PhD, he focuses his research on the impact of adaptive game elements on players' attitudes in video games. He also takes part in the Gamebadges project, developing a badge ecosystem for the European game industry. He's a proud organiser of the GDS game jam."
+      }
+    ]
+  },
+  {
     "title": "",
-    "room": "",
+    "room": "Creative Hall",
     "day": "2025-12-05",
     "start_time": "",
     "end_time": "",
-    "language": "",
-    "level": "",
+    "language": "English",
+    "level": "Business",
+    "abstract": "",
+    "speakers": [
+      {
+        "name": "",
+        "company": "",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "",
+    "end_time": "",
+    "language": "English",
+    "level": "Business",
     "abstract": "",
     "speakers": [
       {
