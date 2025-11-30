@@ -54,7 +54,26 @@ class _SessionDetailScreenState extends State<SessionDetailScreen> {
             const SizedBox(height: 8),
             _buildInfoChip(Icons.language, widget.session.language),
             const SizedBox(height: 8),
-            _buildInfoChip(Icons.label, widget.session.level),
+            Row(
+              children: [
+                Icon(Icons.label, size: 20, color: Colors.grey[600]),
+                const SizedBox(width: 8),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: widget.session.getLevelColor(),
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Text(
+                    widget.session.level,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            ),
             const SizedBox(height: 24),
             if (widget.session.abstract.isNotEmpty) ...[
               Text(

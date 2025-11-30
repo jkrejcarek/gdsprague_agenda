@@ -23,6 +23,7 @@ class _SessionCardState extends State<SessionCard> {
   @override
   Widget build(BuildContext context) {
     final isNow = widget.session.isHappeningNow();
+    final levelColor = widget.session.getLevelColor();
 
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -103,8 +104,13 @@ class _SessionCardState extends State<SessionCard> {
                     Chip(
                       label: Text(
                         widget.session.level,
-                        style: const TextStyle(fontSize: 12),
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
+                      backgroundColor: levelColor,
                       padding: const EdgeInsets.all(0),
                       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                     ),
