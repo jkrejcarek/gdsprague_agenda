@@ -101,6 +101,133 @@
   },
 
   {
+    "title": "Modding support in Kingdom Come: Deliverance 1 & 2",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "For KCD1 and 2, we wanted to give players as much freedom as possible to modify the game. Along the way, we ran into various issues — from releasing our internal tools, to loading the mods themselves, to integrating new data into the game. More problems came after release: using mods with incompatible versions of game, failure to follow recommended practices, corrupted saves, etc. In this talk, I’ll present several specific problems we dealt with — including some we never managed to solve.",
+    "speakers": [
+      {
+        "name": "Martin Labuť",
+        "bio": "Martin Labuť has worked in Warhorse studios for 9 years, on both Kingdom Come: Deliverances. Among other things, he oversaw the release of modding tools for both games."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - Legal Basics for Indies",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "12:00",
+    "end_time": "12:500",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "Legal stuff isn’t just for the big studios, indies need it from day one. This panel brings together top video game lawyers, consultants, and Czech game veterans to give you clear practical guidance on running your indie studio the smart way. We will cover setting up your business, protecting your IP, licensing, and protecting your brand - all in plain language, no legalese. Expect lots of real-life stories, lessons learnt, and tips you can actually use to stay creative, safe and one step ahead.",
+    "speakers": [
+      {
+        "name": "Nav Sunner",
+        "bio": "Nav Sunner is the founder of a video games legal and business consultancy called ‘Navatron’. Has been involved with the video games industry since early 90’s. Has acted as both in-house counsel and external adviser for a variety of companies in the industry including some of the largest developers, publishers and service companies. Nav also holds advisory and board positions for some video game developers and publishers and gets involved in the acquisitions and IPO's of video games businesses."
+      },
+      {
+        "name": "Jarek Kolář",
+        "bio": ""
+      },
+      {
+        "name": "Jan Wosiura",
+        "bio": ""
+      },
+      {
+        "name": "Petr Bratský",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Funding Opportunities For Video Games Developers In 2026 - The Creative Europe Media Program",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "13:00",
+    "end_time": "13:25",
+    "language": "Czech",
+    "level": "Industry Support",
+    "abstract": "Creative Europe is the European Union‘s programme to support the culture and audiovisual sectors. Its MEDIA strand supports the development of new films, video games, TV productions and online formats, distribution, film festivals and markets, training programmes for audiovisual professionals, cinemas and VOD platforms. What are the funding opportunities available to developers and professionals from gaming industry? What projects are eligible to receive support and under which conditions?",
+    "speakers": [
+      {
+        "name": "Anna Bartošková",
+        "company": "Creative Europe MEDIA Desk CZ",
+        "bio": "Anna Bartošková graduated from the Faculty of Arts at Charles University with a major in cultural studies. Before joining the Creative Europe MEDIA Desk, she worked for the Forum of Independents at the Karlovy Vary International Film Festival. She also collaborated with the festival Days of European Films and regularly organized the Prague Quadrennial."
+      }
+    ]
+  },
+  {
+    "title": "Riding The Game Dev Rollercoaster For 10 Years",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "13:00",
+    "end_time": "13:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "These are our stories (and learnings!) from riding up and down the indie game dev rollercoaster for more than a decade. We survived near death situations - almost closed the studio several times - but each time we respawned from the ashes to rise. And then we repeated it again and AGAIN and...",
+    "speakers": [
+      {
+        "name": "Filip Fischer",
+        "company": "Charged Monkey",
+        "bio": "Over more than 20 years, I co-founded and/or led studios like Pixelfederation and Geewa. The last 10 years, I am co-building Charged Monkey, a Czech and Slovak mobile game studio. I also co-founded the Slovak Game Developers Association more than 10 years ago and have been active ever since as board member."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - How to Prepare for Negotiations with a Publisher",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "13:00",
+    "end_time": "13:50",
+    "language": "English",
+    "level": "Legal Summit",
+    "abstract": "Getting your game developed is one thing, getting it funded and published is another. We will unpack what really goes into a publishing agreement: revenue splits, IP ownership, and who controls what. You will also hear what to prepare before talks begin, when to bring in a lawyer, and get some hard-earned tips from real negotiations. Whether you are pitching your first title or expanding your studio, this practical session will help you walk into publisher meetings ready to play smart.",
+    "speakers": [
+      {
+        "name": "Nav Sunner",
+        "company": "Navatron",
+        "bio": "Nav Sunner is the founder of a video games legal and business consultancy called ‘Navatron’. Has been involved with the video games industry since early 90’s. Has acted as both in-house counsel and external adviser for a variety of companies in the industry including some of the largest developers, publishers and service companies. Nav also holds advisory and board positions for some video game developers and publishers and gets involved in the acquisitions and IPO's of video games businesses."
+      },
+        {
+            "name": "Vladimír Geršl",
+            "company": "",
+            "bio": ""
+        },
+        {
+            "name": "Tomasz Gadomski",
+            "company": "",
+            "bio": ""
+        },
+        {
+            "name": "Petr Bratský",
+            "company": "",
+            "bio": ""
+        }
+    ]
+  },
+  {
+    "title": "Artificial voices and Avatars",
+    "room": "Creative Hall",
+    "day": "2025-12-05",
+    "start_time": "13:00",
+    "end_time": "13:25",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "I’ll present recent progress in creating artificial voices by blending different timbres, along with a brief look at developing life-like avatars.",
+    "speakers": [
+      {
+        "name": "Josef Vopička",
+        "company": "The MAMA AI, SE",
+        "bio": "Josef Vopička is the co-founder of The MAMA AI, SE and Senior Application Developer at MAMA AI. He has 24 years of experience, including 20 years in R&D and management at IBM Research and IBM Watson. He holds a Ph.D. in Electrical Engineering and is a co-inventor of nine U.S. patents and author of several publications in STT and TTS technologies."
+      }
+    ]
+  },
+  {
     "title": "",
     "room": "",
     "day": "2025-12-05",
@@ -112,6 +239,7 @@
     "speakers": [
       {
         "name": "",
+        "company": "",
         "bio": ""
       }
     ]
