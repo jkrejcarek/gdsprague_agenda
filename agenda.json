@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Survive Long Enough to Get Lucky",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Drawing on 20 years of experience in game development—including time as a Game Director of LEGO games and running a successful small studio for a decade—this session offers a unique, veteran perspective on navigating the current challenging landscape of the industry. This talk centres on the crucial philosophy of \"Survive Long Enough to Get Lucky\", providing attendees with actionable strategies to maintain resilience during tough times, and to successfully create and capitalise on opportunities",
+    "speakers": [
+      {
+        "name": "Rob Hewson",
+        "bio": "CEO & Creative Director Rob Hewson has been a Lead Designer and Game Director at TT Games and other studios, and has worked directly with the likes of Disney, Warner Brothers, Universal, DC Comics, Microsoft, Sega and Konami leading the design of hit games like LEGO Star Wars: The Force Awakens, LEGO Jurassic World, LEGO Batman 3, LEGO The Hobbit, LEGO Legends of Chima, LEGO The Lord of the Rings and Hydrophobia. At Huey Games he has secured major clients including Konami, Devolver, Marvelous Eu"
+      }
+    ]
+  },
+  {
+    "title": "Prague Game Accelerator",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "11:00",
+    "end_time": "11:25",
+    "language": "Czech",
+    "level": "Industry Support",
+    "abstract": "oin us for an inspiring session about the very first edition of the Prague Game Accelerator, held from August to November, which created a unique platform to support emerging game studios in the Czech Republic. Over twelve intensive weeks, ten selected teams received hands-on mentorship from leading industry experts, developing their game design, production, marketing, and pitching skills, while gaining access to investors and global networks. In this talk, we will share real outcomes, success stories, key lessons learned, and our plans for the next edition. Discover why the accelerator matters, how it strengthens the game development ecosystem, and why you should be part of it next year.",
+    "speakers": [
+      {
+        "name": "Michal Roch",
+        "bio": "Michal is in the industry for more than 15 years, starting his career in Keen Software House and eventually kickstarting his own studio Honestly Games and launching a successful indie title Lords & Villeins. He spent several years in Swedish incubator Spelkollektivet, met hundreds of indie devs all around the world and currently works with the Czech Gamedev Association, helps organizing the GDS Prague and manages the Prague Gamedev Accelerator."
+      },
+      {
+        "name": "Katarzyna Kouba Sanojca",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Automated Testing Of Quests In Kingdom Come: Deliverance II",
+    "room": "Lecture Hall",
+    "day": "2025-12-05",
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "As quests in Kingdom Come: Deliverance II are not linear and the player has freedom in how to approach them, there are a huge number of combinations that need to be thoroughly tested. That is why we have incorporated automated testing into our processes. In this talk we will go over how we approached automated testing in KCD2, what the process looked like from test creation to iterations during active development, what worked for us and what didn’t, focusing mainly on automation of quest testing",
+    "speakers": [
+      {
+        "name": "David Bobek",
+        "bio": "David Bobek joined Warhorse Studios in 2022 as a QA Tester, where he worked on automated testing and compliance testing of Kingdom Come: Deliverance II."
+      }
+    ]
+  },
+  {
+    "title": "How To Keep Your Project On Course When Plans Fall Apart",
+    "room": "Summit Hall",
+    "day": "2025-12-05",
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Every game starts with a vision — but the path from concept to launch is never straightforward. Join Jonathan Court, Executive Producer at GRIP Studios, as he shares how to keep a project on course when plans fall apart. Learn how planning becomes a creative tool to adapt, anticipate change, and still deliver something extraordinary. Packed with real examples and hard-earned insights, this talk reveals what it takes to guide teams through chaos to success.",
+    "speakers": [
+      {
+        "name": "Jonathan Court",
+        "bio": "BAFTA-winning producer Jonathan Court is a veteran game development leader with decades of experience delivering award-winning AAA titles across multiple genres and platforms. He has overseen more than 20 releases, including Alien: Isolation, Halo Wars 2, Spartan: Total Warrior, and Hyenas. Jonathan is currently Executive Producer at GRIP Studios, leading an unannounced project."
+      }
+    ]
+  },
+  {
+    "title": "20 years building game companies. - learnings, anecdotes and what this had to do with being an industrial artist",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-05",
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "In this session, Hendrik Lesser will draw on two decades of shaping the European games industry as the founder and CEO of Remote Control Productions. He will share candid anecdotes and key lessons learned from founding, growing, and supporting a network of development studios across multiple countries.",
+    "speakers": [
+      {
+        "name": "Hendrik Lesser",
+        "bio": "Entrepreneur and founder Hendrik Lesser is the CEO of the international production house remote control productions. After starting out more than 20 years ago in the industry, he has built a global family of independent development studios, which today consists of 15 teams in six countries with more than 400 passionate game makers. Most recently, he founded the politically conscious game publishing label Lesser Evil."
+      }
+    ]
+  },
+  {
+    "title": "Czech Audiovisual Fund and new video games support",
+    "room": "Panorama Hall",
+    "day": "2025-12-05",
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "language": "Czech",
+    "level": "Industry Support",
+    "abstract": "The transformation of the Film Fund into the Audiovisual Fund also brings support for the Czech gaming industry. Detailed information on what opportunities this will bring to Czech game developers in the coming years, how the SFA works, who will be target audience, and what the entire process will look like.",
+    "speakers": [
+      {
+        "name": "David Šemík",
+        "bio": "Game developer, designer, programmer, and artist. He is the co-author of Mafia I and II, the author of the virtual model kit Monzo. For the last ten years, he has been a member of Amanita Design. After this year’s transformation of the Cinematography Fund into the Audiovisual Fund, he is a member of the council for the support animated films and video games."
+      }
+    ]
+  },
+
+  {
+    "title": "",
+    "room": "",
+    "day": "2025-12-05",
+    "start_time": "",
+    "end_time": "",
+    "language": "",
+    "level": "",
+    "abstract": "",
+    "speakers": [
+      {
+        "name": "",
+        "bio": ""
+      }
+    ]
+  }
+]
