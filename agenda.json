@@ -11,6 +11,7 @@
     "speakers": [
       {
         "name": "Rob Hewson",
+        "company": "Huey Games",
         "bio": "CEO & Creative Director Rob Hewson has been a Lead Designer and Game Director at TT Games and other studios, and has worked directly with the likes of Disney, Warner Brothers, Universal, DC Comics, Microsoft, Sega and Konami leading the design of hit games like LEGO Star Wars: The Force Awakens, LEGO Jurassic World, LEGO Batman 3, LEGO The Hobbit, LEGO Legends of Chima, LEGO The Lord of the Rings and Hydrophobia. At Huey Games he has secured major clients including Konami, Devolver, Marvelous Eu"
       }
     ]
@@ -27,11 +28,11 @@
     "speakers": [
       {
         "name": "Michal Roch",
+        "company": "Honestly Games",
         "bio": "Michal is in the industry for more than 15 years, starting his career in Keen Software House and eventually kickstarting his own studio Honestly Games and launching a successful indie title Lords & Villeins. He spent several years in Swedish incubator Spelkollektivet, met hundreds of indie devs all around the world and currently works with the Czech Gamedev Association, helps organizing the GDS Prague and manages the Prague Gamedev Accelerator."
       },
       {
-        "name": "Katarzyna Kouba Sanojca",
-        "bio": ""
+        "name": "Katarzyna Kouba Sanojca"
       }
     ]
   },
@@ -47,6 +48,7 @@
     "speakers": [
       {
         "name": "David Bobek",
+        "company": "Warhorse Studios",
         "bio": "David Bobek joined Warhorse Studios in 2022 as a QA Tester, where he worked on automated testing and compliance testing of Kingdom Come: Deliverance II."
       }
     ]
@@ -63,6 +65,7 @@
     "speakers": [
       {
         "name": "Jonathan Court",
+        "company": "Grip Studios",
         "bio": "BAFTA-winning producer Jonathan Court is a veteran game development leader with decades of experience delivering award-winning AAA titles across multiple genres and platforms. He has overseen more than 20 releases, including Alien: Isolation, Halo Wars 2, Spartan: Total Warrior, and Hyenas. Jonathan is currently Executive Producer at GRIP Studios, leading an unannounced project."
       }
     ]
@@ -79,6 +82,7 @@
     "speakers": [
       {
         "name": "Hendrik Lesser",
+        "company": "remote control productions",
         "bio": "Entrepreneur and founder Hendrik Lesser is the CEO of the international production house remote control productions. After starting out more than 20 years ago in the industry, he has built a global family of independent development studios, which today consists of 15 teams in six countries with more than 400 passionate game makers. Most recently, he founded the politically conscious game publishing label Lesser Evil."
       }
     ]
@@ -95,11 +99,11 @@
     "speakers": [
       {
         "name": "David Šemík",
+        "company": "Státní fond audiovize",
         "bio": "Game developer, designer, programmer, and artist. He is the co-author of Mafia I and II, the author of the virtual model kit Monzo. For the last ten years, he has been a member of Amanita Design. After this year’s transformation of the Cinematography Fund into the Audiovisual Fund, he is a member of the council for the support animated films and video games."
       }
     ]
   },
-
   {
     "title": "Modding support in Kingdom Come: Deliverance 1 & 2",
     "room": "Lecture Hall",
@@ -112,6 +116,7 @@
     "speakers": [
       {
         "name": "Martin Labuť",
+        "company": "Warhorse Studios",
         "bio": "Martin Labuť has worked in Warhorse studios for 9 years, on both Kingdom Come: Deliverances. Among other things, he oversaw the release of modding tools for both games."
       }
     ]
@@ -193,21 +198,21 @@
         "company": "Navatron",
         "bio": "Nav Sunner is the founder of a video games legal and business consultancy called ‘Navatron’. Has been involved with the video games industry since early 90’s. Has acted as both in-house counsel and external adviser for a variety of companies in the industry including some of the largest developers, publishers and service companies. Nav also holds advisory and board positions for some video game developers and publishers and gets involved in the acquisitions and IPO's of video games businesses."
       },
-        {
-            "name": "Vladimír Geršl",
-            "company": "",
-            "bio": ""
-        },
-        {
-            "name": "Tomasz Gadomski",
-            "company": "",
-            "bio": ""
-        },
-        {
-            "name": "Petr Bratský",
-            "company": "",
-            "bio": ""
-        }
+      {
+        "name": "Vladimír Geršl",
+        "company": "",
+        "bio": ""
+      },
+      {
+        "name": "Tomasz Gadomski",
+        "company": "",
+        "bio": ""
+      },
+      {
+        "name": "Petr Bratský",
+        "company": "",
+        "bio": ""
+      }
     ]
   },
   {
@@ -682,37 +687,722 @@
     ]
   },
   {
-    "title": "",
-    "room": "Creative Hall",
-    "day": "2025-12-05",
-    "start_time": "",
-    "end_time": "",
+    "title": "Lean Production - what can we learn from others",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:50",
     "language": "English",
     "level": "Business",
-    "abstract": "",
+    "abstract": "How come game budgets increased so much even though we have experience and tools to develop games more efficiently? The book The Toyota Way introduced the philosophy of Lean Production and in this talk we will challenge ourselves about how to think differently and learn from others in order to produce games faster and better.",
     "speakers": [
       {
-        "name": "",
-        "company": "",
-        "bio": ""
+        "name": "Tobias Sjögren",
+        "company": "Video Games Consulting",
+        "bio": "Tobias started as a games programmer in 1996 and has since been based in Stockholm, Sweden. He was studio head of DICE Stockholm where Battlefield 1942 was produced. Since then he held management and business development roles at companies line DDM, Paradox, White Wolf Entertainment and Starbreeze."
       }
     ]
   },
   {
-    "title": "",
-    "room": "Creative Hall",
-    "day": "2025-12-05",
-    "start_time": "",
-    "end_time": "",
+    "title": "Going from indie hell to AA chaos",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "12:00",
+    "end_time": "12:50",
     "language": "English",
     "level": "Business",
-    "abstract": "",
+    "abstract": "What happens when a small indie team suddenly decides to “level up”? This talk dives into our journey from a 4-person indie studio to nearly 30 developers, switching from Unity to Unreal, and from pure creative freedom to full-blown production chaos. I’ll share what worked, what didn’t, and what we wish we knew before taking the leap from indie to AA development.",
     "speakers": [
       {
-        "name": "",
-        "company": "",
-        "bio": ""
+        "name": "Jiří Vašica",
+        "company": "Perun Creative",
+        "bio": "Jiří Vašica is co-founder and CEO of Perun Creative. Worked as the producer and lead programmer of the award-winning game Hobo: Tough Life. Currently is working on the upcoming next-gen game Kromlech."
       }
     ]
+  },
+  {
+    "title": "How to create your masterpiece",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "13:30",
+    "end_time": "14:20",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "How to come up with an idea for an exceptional work, how to cultivate it, push it through, execute it, and bring it to completion.",
+    "speakers": [
+      {
+        "name": "Daniel Vávra",
+        "company": "Warhorse Studios",
+        "bio": "Daniel Vávra is a Czech video game writer, director, designer and co-founder of Warhorse Studios. He is best known as the lead writer of the video games Mafia (2002), Mafia II (2010) and Kingdom Come: Deliverance (2018) and upcoming Kingdom Come 2."
+      }
+    ]
+  },
+  {
+    "title": "Fireside Chat",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "14:30",
+    "end_time": "15:20",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Fireside Chat",
+    "speakers": [
+      {
+        "name": "Anselm Pyta",
+        "company": "Studio Seufz",
+        "bio": "Anselm Pyta co-founded the German animation and games studio “Studio Seufz.” He is the creator of the idle-adventure hybrid “The Longing” (2020), where he was responsible for artwork, writing, game design, and sound. He started out by making viral web games like “Lucky Tower” (2010) or “Murder” (2014). Currently, he is working on “Lucky Tower Ultimate,” a humorous roguelike set to be released from Early Access in 2026. His next project will be a spiritual sequel to The Longing."
+      }
+    ]
+  },
+  {
+    "title": "Designing Brave",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Game design as an art form: a space where personal vision meets public reception. Reflection on creative risks, design integrity, and the ongoing search for balance between authenticity and accessibility in modern game development.",
+    "speakers": [
+      {
+        "name": "Viktor Bocan",
+        "company": "Warhorse Studios",
+        "bio": "Game designer and writer for more than 30 years; worked on small and big games, lead designer of the original Operation Flashpoint, design lead and design director for Kingdom Come: Deliverance I & II. Gaming enthusiast & seeker of purity in game design."
+      }
+    ]
+  },
+  {
+    "title": "Jagged Alliance 3 Narrative: Designing Characters People Actually Remember",
+    "room": "Hangar 13 Hall",
+    "day": "2025-12-06",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "This talk is a post-mortem of the narrative work on Jagged Alliance 3, focusing on how to create memorable characters and make players actually care about their decisions. It covers the challenges of building a sequel to a beloved franchise – expanding its world with more content, deepening its decision branches and consequences, and still staying true to the original’s tone. The session also includes practical advice on narrative design documentation and writing workflows.",
+    "speakers": [
+      {
+        "name": "Radomir Mirchev",
+        "bio": "Radomir Mirchev is the narrative designer behind Jagged Alliance 3, responsible for the game’s worldbuilding, story, NPC, and most of its quest content. He has worked on multiple indie projects, including Surviving Mars at Haemimont Games. Designer of the long-running Stalker Bulgaria live-action series (2009–2022). Creator of Bulgaria’s first Kickstarter-funded board game and publisher of two successful KS titles."
+      }
+    ]
+  },
+  {
+    "title": "Design For Everything In Kingdom Come: Deliverance 2",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "We will explore the relation of design and iteration on the example of NPC sight in Kingdom Come: Deliverance 2. How we made NPCs see in a realistic, open world RPG, what we thought is going to work and what we actually had to do. What it takes to tune a system to behave in both scripted and emergent situations, to provide enjoyable but nontrivial gameplay and enhance immersion. We will be reminded of lessons that might seem basic but still could pose a challenge over 10+ years of development.",
+    "speakers": [
+      {
+        "name": "Vadim Petrov",
+        "company": "Warhorse Studios",
+        "bio": "Vadim Petrov is a game developer specializing in AI and audio programming, with a passion for creating responsive, immersive systems. From designing intelligent NPCs to implementing adaptive music and real-time sound behaviors, Vadim loves to create environments that draw the audience in. In his free time he develops custom software tools for live musical performance — crafting interactive environments and reactive visuals that respond to musicians in real time."
+      }
+    ]
+  },
+  {
+    "title": "Mafia: The Old Country: World & Biomes",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "In this session, Hangar 13 showcases how they created early 20th century Sicily nature through detailed landscapes and biomes in Mafia: The Old Country. We will go through how the creation of the world proceeded through project lifetime. What were the major steps in videogame development from pre-production to finalization phases. Everything is accompanied by example references, images and graphs to help us understand the processes and challenges.",
+    "speakers": [
+      {
+        "name": "Dominik Regec",
+        "company": "Hangar 13",
+        "bio": "As the Lead Environment Artist at Hangar 13, I am passionate about creating immersive and realistic environments, notably for the acclaimed MAFIA franchise. I have 15+ years of professional practice in 3D graphics, realtime rendering and game development, including 5 years of work experience in the USA. During my career I went through various art & tech-art disciplines: creation of props, vehicles, buildings, production of game city districts, mission set-pieces and even whole game worlds."
+      }
+    ]
+  },
+  {
+    "title": "Business Crash Course",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "13:00",
+    "end_time": "13:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Based on my lectures given in the Prague Game Accelerator and my 21 year of experience in running companies. I will tell you how to set up a company if that's really needed. We will look on how to spot good and bad people to do business with, how to avoid many pitfalls of doing bad decisions early and how to keep costs low and profits high. If you plan to start a studio or you are fresh to the scene, this talk will save you from a lot of suffering. All based on my actual experience.",
+    "speakers": [
+      {
+        "name": "Martin Boháč",
+        "company": "Allodium Games & Ionic Games",
+        "bio": "Martin founder Allodium in 2007 and led development of two big online MMO browser-based games and later Fantasy Sports game which led to Allodium becoming a major supplier of online scratchcards for national lotteries. Martin also founder GameDevHub, an online school for game professionals. Lately Martin launched a new studio called Ionic Games, which is developing a hex-based strategy game Cyberpolis."
+      }
+    ]
+  },
+  {
+    "title": "Leveraging AI And LLMs To Transform Collaboration In Teams",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Discover how AI and Large Language Models can transform collaboration and communication in game development teams. This talk explores practical workflows.",
+    "speakers": [
+      {
+        "name": "Diego Ricchiuti",
+        "company": "Focus Home & Caracal Games",
+        "bio": "16 years of experience in the game industry, Diego worked in AAA and AA, he is also a published author by CRC press with a book on game design (Game Design Tools) and one about game publishing (The game business guide book). He works for various studios and publishers as creative director and consultant."
+      }
+    ]
+  },
+  {
+    "title": "Bringing Characters to Life in Kingdom Come: Deliverance II",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "Creating characters for Kingdom Come: Deliverance II meant finding the balance between historical authenticity, artistic expression, and technical limitations. This talk offers a glimpse into how character artists bring the medieval world to life —from refining the faces, crafting diverse outfits to tackling the challenges of the game’s intricate clothing system with so many, many layers... and yes, there will be also some animals.",
+    "speakers": [
+      {
+        "name": "Anna Pačesová",
+        "company": "Warhorse Studios",
+        "bio": "Anna Pačesová is the Lead Character Artist at Warhorse Studios. She started in QA 11 years ago before moving to the 3D environment team, where she spent six years creating assets and landscapes for KCD I and II. She later joined the character art team and was soon offered the opportunity to lead it, shaping the visual identity of the series together."
+      }
+    ]
+  },
+  {
+    "title": "Thread Lightly: Parallelizing Gameplay and Tools with the Job System",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "Learn how to leverage Unity’s Job System outside ECS, from Editor baking to runtime logic. This talk explores how to integrate parallelism into your existing workflows without adopting the full DOTS stack. We’ll look at practical examples like baking static data and iterating through it, showing how Jobs can speed up editor-time, build-time and runtime operations while keeping your project structure clean, modular, and scalable.",
+    "speakers": [
+      {
+        "name": "Arnaud Briche",
+        "company": "Unity Software",
+        "bio": "Senior Partner Engineer at Unity, empowering developers to maximize engine potential through technical guidance and optimization strategies. Previously Senior Gameplay Engineer at Ubisoft developing core parkour mechanics and VR interactions for the award-winning Assassin's Creed Nexus VR (Meta Quest Game of the Year 2023). Active gamejam mentor and performance optimization enthusiast, bridging technical excellence with community growth across C# and C++ development."
+      }
+    ]
+  },
+  {
+    "title": "Casting Actors",
+    "room": "Panorama Hall",
+    "day": "2025-12-06",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "Asking an actor to audition for your game is a complex process; even more so for the actor if they’re given a less than ideal audition brief. Lack of context, information, and instruction can turn what could be a great performance into an MP3 destined for the desktop trash. In “Casting Actors” you’ll see the breakdown process and then a live-audition by an actor leading all the way up to delivery from the actor’s perspective.",
+    "speakers": [
+      {
+        "name": "Mike Bodie",
+        "company": "Voice Actor",
+        "bio": "Mike is an Olivier-Award nominated, and 5 x One Voice Award-winning classically trained Actor/VO, VO Director, Performance Capture artist based in London and Los Angeles. He has over +150 game titles as a VO, and is one of the founders and performers in the Olivier and Tony award-winning theatre company Mischief Theatre. Some of his previous AAA VO work in games includes WOLFENSTEIN 2, STAR WARS: BATTLEFRONT 2, THE DIVISION 2, CONTROL, GHOST RECON: BREAKPOINT, STAR CITIZEN, SEA OF THIEVES"
+      }
+    ]
+  },
+  {
+    "title": "Well-Being and Working in Games: What Makes You Happy Can Also Make You Sick",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "The media industries generally, and games in particular, thrive on the passion, but that passion often comes at a cost. Behind the glamour of working in the media lies a growing crisis—one of burnout, anxiety, abuse, and exhaustion. Why do so many professionals report feeling both deeply fulfilled and profoundly unwell? How did we get this far, and what can be done? Mark Deuze maps the systemic issues that make creative work both exhilarating and unsustainable, and offers a way out.",
+    "speakers": [
+      {
+        "name": "Mark Deuze",
+        "company": "University of Amsterdam",
+        "bio": "Mark Deuze is Professor of Media Studies at the University of Amsterdam, The Netherlands. Awards include a Fulbright scholarship at the University of Southern California in Los Angeles (US), a Research Fellowship at Leeds University (UK), and several honorary appointments at universities in the UK, Australia, Portugal, Germany, and Russia. Publications of his work include 14 books, most recently “Well-Being and Creative Careers: What Makes You Happy Can Also Make You Sick” (Intellect, 2025)."
+      }
+    ]
+  },
+  {
+    "title": "We Grew Up in War: Designing a Different Kind of War Game",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "12:00",
+    "end_time": "12:25",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Drawing on a decade of making games about war and history, this talk shares practical methods for treating heavy themes in indie production. Lukáš will unpack Charles Games’ design pillars, show how they shape We Grew Up in War, and discuss working with historians and communities to turn lived wartime experience into playable moments.",
+    "speakers": [
+      {
+        "name": "Lukáš Kolek",
+        "company": "Charles Games s.r.o.",
+        "bio": "Lukáš Kolek is the co-founder and CEO of Charles Games, the studio behind 10+ indie titles including the award-winning Playing Kafka, Svoboda 1945: Liberation and Beecarbonize, enjoyed by hundreds of thousands of players worldwide. Charles Games creates experiences that tackle serious themes, from historical trauma to the climate crisis."
+      }
+    ]
+  },
+  {
+    "title": "CPU Architecture Internals: x86, ARM, and Performance Basics",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "12:30",
+    "end_time": "13:20",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "A grounded overview of how modern CPUs (x86-64 and ARM64) execute code. Introduces pipelines, caches, branch prediction, SIMD, and hybrid P/E-cores, with practical examples from game and engine code such as data layout, branch-less logic, multi-threading, and cross-architecture pitfalls.",
+    "speakers": [
+      {
+        "name": "Martin Pernica",
+        "company": "Flying Rat Studio",
+        "bio": "CTO by day, developer by night. He has been working in the game industry for quite some time and has a passion for anything technology related that helps his teams make their dreams come true."
+      }
+    ]
+  },
+  {
+    "title": "From the Fuckup Files",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "„From the Fuckup Files” is a fast, honest look at the key lessons from 25 years in game development. The talk covers three themes: allocating and growing talent, what makes a strong co-dev partner, and how the industry has changed. No sugarcoating—just practical insights shaped by real mistakes and the progress they created.",
+    "speakers": [
+      {
+        "name": "Tom Roller",
+        "company": "Plan A Collective",
+        "bio": "Tom Roller is the CEO of Plan A and a 25-year veteran of game development and co-dev production (Battlefield 6, Dragon's Dogma 2, MS Flight Simulator). He specializes in building high-performance teams, scaling talent, and shaping partnerships with top AA/AAA studios. His leadership style is direct, practical, and rooted in one belief: growth comes from mistakes - if you know how to turn them into progress."
+      }
+    ]
+  },
+  {
+    "title": "10 Useful Tips for Porting Your Game",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "15:00",
+    "end_time": "15:25",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "Making your game multi-platform by porting to consoles and online storefronts is a great way to reach a wider audience. Without proper preparation, however, the process can quickly become expensive, confusing, and time-consuming. Tomáš shares practical advice for a smoother porting journey, from engineering insights like managing crossplay, to production tips that help your team navigate platform requirements with confidence.",
+    "speakers": [
+      {
+        "name": "Tomáš Hoffman",
+        "company": "Grip Studios",
+        "bio": "With more than six years in game development, Tomáš has built his career around solving complex technical challenges in simulation games. On his last project, Firefighting Simulator: Ignite, he led the porting to PS5 and Xbox Series X/S and now works as a Technical Producer at Grip Studios on an upcoming, unannounced title."
+      }
+    ]
+  },
+  {
+    "title": "Mechanics As Meaning",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "15:30",
+    "end_time": "16:20",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "This talk will explore procedural rhetoric, a concept described by Ian Bogost as the way in which game mechanics communicate meaning and arguments. Drawing on my Master's thesis on metaphors of growth in game design, I will present practical examples from games to demonstrate how we, as creators, can engage with procedural rhetoric. We will then discuss how procedural rhetorics can be analysed, demonstrating how mechanics can symbolise and convey meaning beyond explicit narrative.",
+    "speakers": [
+      {
+        "name": "Matěj Hložánek",
+        "company": "Herdek",
+        "bio": "I am a co-founder of Herdek, which develops the game Prší (prshee) – a game that won awards at Games for Change in New York and the Aware Games at Blon, and was nominated for the Digital Moment Award at A MAZE Berlin. I studied game design at FAMU in Prague and focus on creating small, meaningful games with a socially critical dimension. I am particularly interested in what game mechanics can symbolize and how to work with metaphors in game design."
+      }
+    ]
+  },
+  {
+    "title": "Gamedev Studios Are Businesses - Treat Them Accordingly",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "16:30",
+    "end_time": "16:55",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Publishers and investors focus on three pillars when investing in a game studio: 1) game experience, 2) financial health, and 3) internal processes for growth. Studios handle the first, we handle the rest. Our talk covers the two often-overlooked pillars crucial for investors, publishers, and EU grants application validators. With experience in consulting and banking, we help studios prepare for investor talks, EU grants, and sustainable business development.",
+    "speakers": [
+      {
+        "name": "Filip Ondras",
+        "company": "vector virtuoso",
+        "bio": "I’m Filip Ondras, a finance and process expert based in Vienna. With experience from KPMG and Erste Group, I help creative teams and game studios turn great ideas into profitable businesses. My background in consulting and banking taught me how to bring clarity to complexity, building financial systems, investor strategies, and workflows that fuel growth without killing creativity."
+      }
+    ]
+  },
+  {
+    "title": "Behind-the-Scenes – Factory Faction in Heroes of Might & Magic III",
+    "room": "Lecture Hall",
+    "day": "2025-12-06",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "Horn of the Abyss (HotA) is a meticulously crafted fan-made expansion for Heroes of Might and Magic III, designed to seamlessly integrate with the original game's mechanics and aesthetics. The talk aims to unveil behind-the-scenes stories from the development process of the long-awaited Factory faction, inspired by steampunk & blending together technology and nature. The talk covers multiple topics – ranging from art and design, music and sound, to single and multiplayer content.",
+    "speakers": [
+      {
+        "name": "Alex Tarren",
+        "company": "HotA Crew",
+        "bio": "Alex T. is a developer at HotA Crew, deeply passionate about the HoMM series and its legacy. He joined the team a few years ago, contributing to a project with nearly two decades of history. Throughout the period, HotA Crew has consistently delivered updates and enhancements to their beloved game, preserving its essence while expanding its horizons."
+      }
+    ]
+  },
+  {
+    "title": "Interactive Spatial Audio in Games. How it conveys emotion and impacts perception",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:25",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "What makes spatial audio immersive isn’t just how it sounds, but how it responds. In this session, Markus Zaunschirm and Clemens Amon from atmoky explore the real-time nature of interactive spatial audio and how it fuels immersion, engagement, and presence in games. They connect psychoacoustic concepts like transportation and plausibility with practical game engine and middleware implementation. The talk will include live demos and a behind-the-scenes look at atmoky’s upcoming acoustics engine.",
+    "speakers": [
+      {
+        "name": "Clemens Amon",
+        "company": "atmoky",
+        "bio": "Clemens Amon, MSc, is Co-Founder and Head of Growth at atmoky, driving adoption of next-generation spatial audio tooling for games and XR. With a Master’s in Electrical and Audio Engineering focused on digital signal processing, he combines technical depth with strategic insight into the immersive audio market. Before atmoky, he spent eight years in applied audio research. His work focuses on how interactive spatial audio and 3D acoustics shapes emotion, perception, and presence."
+      }
+    ]
+  },
+  {
+    "title": "The Essentials of Procedural Game Audio",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "11:30",
+    "end_time": "12:20",
+    "language": "English",
+    "level": "Art/Audio",
+    "abstract": "You can sculpt sounds at the sample level! This session explores how designing custom synthesizers introduces creative constraints that foster originality. We’ll cover the principles of coding audio generators and demonstrate how they can respond directly to gameplay parameters—such as player speed, item state, or environmental cues. The underlying logic can be integrated into middleware like Wwise or FMOD, ensuring your game’s audio remains distinctive, cohesive, and highly scalable.",
+    "speakers": [
+      {
+        "name": "Adam Sporka",
+        "company": "Embody",
+        "bio": "Adam Sporka is a game audio researcher, developer, and educator, specializing in interactive music and sound. He composed for Kingdom Come: Deliverance I & II, served as KCD II’s technical music director, and created the Sequence Music Engine which handled the music in the games. He is a principal engineer at Embody, a spatial audio technology start-up. Adam also teaches game audio at University of California, Santa Cruz and holds a Ph.D. in HCI. You can reach him at Twitter @adam_sporka."
+      }
+    ]
+  },
+  {
+    "title": "Sail.Game: How to Find the Right Publisher in the Vast Sea of the Gaming Industry",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "12:30",
+    "end_time": "13:20",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Cyber Sail Consulting focuses on connecting developers with publishers. Gaming veteran Mikoláš Tuček will share his tips, insights on the current market situation, and introduce the brand-new matchmaking platform Sail.Game.",
+    "speakers": [
+      {
+        "name": "Mikoláš Tuček",
+        "company": "Cyber Sail Consulting",
+        "bio": "Industry veteran whose gaming career officially spans two millennia (well... he started in 1999). He has been the editor-in-chief of SCORE magazine, the host of the Re-Play TV show, and he currently runs the pop-culture podcast Poslední podcast. One of the true gaming evangelists, he has joined Cyber Sail Consulting and is now helping developers find the right publishers. Get in touch if you are Developer struggling to find Publisher, or Publisher/Investor looking for new addition to portfolio!"
+      }
+    ]
+  },
+  {
+    "title": "Between the Sign and the Referent: The Semiotics of Videogames",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "14:00",
+    "end_time": "14:25",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "This presentation explores the semiotics of reality representation in videogames. Semiotics, the study of how meaning is created through signs, provides a compelling framework for understanding how game worlds are constructed and how players interpret them. The talk examines how different types of signs shape not only the representation of reality in videogames, but also the cognitive processes that allow players to perceive a game as an aesthetic and interactive object.",
+    "speakers": [
+      {
+        "name": "Anton Romanenko",
+        "company": "SCS Software",
+        "bio": "Anton Romanenko is a game designer at SCS Software and a Ph.D. student at Charles University. He has contributed to several projects, including work as a researcher on American Truck Simulator: Nebraska and as a UX and gameplay designer on American Truck Simulator: DLC Road Trip. His academic and design work both focus on how players interpret meaning in interactive worlds, with a particular interest in multilingual literature and narrative structures in video games."
+      }
+    ]
+  },
+  {
+    "title": "Unforseen Consequences - The Caveats of Planning and How to React to the Unplanned",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "14:30",
+    "end_time": "14:55",
+    "language": "English",
+    "level": "Technical",
+    "abstract": "Talk about planning for release, finishing and polishing, and about the fact that anything that can go wrong will go wrong. But that doesn't mean it has to stay that way. There is just one question remaining: How to approach this? Small post mortem by the tools developer and kind of \"man Friday\" about the last two years of development of the Kingdom Come: Deliverance 2 and the difficulties we faced and how we overcame them.",
+    "speakers": [
+      {
+        "name": "Ondrej Sakači",
+        "company": "Warhorse Studios",
+        "bio": "Technical artist working for Warhorse Studios with broad scope of skills but mainly focused on Enviromental Art. Finished Software Engineering at CTU in Prague and tried a bit of Graphics Programming and UX/UI studies. Helped primarily prior to /and with the release of Kingdom Come: Deliverance 2."
+      }
+    ]
+  },
+  {
+    "title": "Demystifying Marketing: The Art Of Making Your Games Seen And Bought",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Many indies, when faced with the necessity of marketing their games, are often intimidated by the mysticism surrounding it. What do we even do? A typical first thought is to start a social media account, post about your game and maybe go viral, or contact a few influencers and hope for the best. But the reality is simpler than you might think. In this talk, we will remove this mystical veneer and discuss marketing for what it really is: a lot of research, good planning, a strong identity, and a lot of hard work.",
+    "speakers": [
+      {
+        "name": "Michal Roch",
+        "company": "Honestly Games",
+        "bio": "Michal is in the industry for more than 15 years, starting his career in Keen Software House and eventually kickstarting his own studio Honestly Games and launching a successful indie title Lords & Villeins. He spent several years in Swedish incubator Spelkollektivet, met hundreds of indie devs all around the world and currently works with the Czech Gamedev Association, helps organizing the GDS Prague and manages the Prague Gamedev Accelerator."
+      }
+    ]
+  },
+  {
+    "title": "Game Trailers 101: How to Hook Players and Publishers Alike",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "16:00",
+    "end_time": "16:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "A deep dive into what makes a game trailer truly work - and what makes it fail. We’ll explore the anatomy of a good trailer, the storytelling power of music, and the common mistakes that ruin first impressions. Beyond just editing and pacing, we’ll discuss why trailers matter, how to strategically use different types of trailers throughout your marketing campaign, and how the right trailer can attract not only players but also investors and publishers alike.",
+    "speakers": [
+      {
+        "name": "Tomas Oliva",
+        "company": "4Boars",
+        "bio": "Co-founder at 4Boars, an acclaimed collective of trailer and advertising industry professionals. Recognized for successful advertising campaigns for Assassin's Creed Shadows, Starfield, Star Wars: Andor, Jurassic World: Dominion, Tekken, and numerous other high-profile projects."
+      }
+    ]
+  },
+  {
+    "title": "Cutting Through Creatively In Gaming Campaigns - Kingdom Come: Deliverance Ii",
+    "room": "Summit Hall",
+    "day": "2025-12-06",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "If you don’t have insanely large media budget, your trailers, reveals and other key campaign assets need to be something very special. An honest peak behind the curtain of the creation of hero assets for the advertising campaign of Kingdom Come: Deliverance II.",
+    "speakers": [
+      {
+        "name": "Vítek Mičke",
+        "company": "Warhorse Studios",
+        "bio": "Vítek Mičke is part of the global brand team behind the Kingdom Come: Deliverance II advertising campaign, serving as the lead writer and director of hero assets and commercials - Trailers, Game Reveals, Showcases, Live Action and more."
+      }
+    ]
+  },
+  {
+    "title": "Don't Push The Narrative - Improvise!",
+    "room": "Creative Hall",
+    "day": "2025-12-06",
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "One of the beautiful things about game narratives is their ability to give the player choices. But very often, the choices we're presented with can be trivial, pointless, obvious, or just leaving you questioning why they're there at all. In this talk, we will explore a new frame of mind for designing choices in game narratives – inspired by the art of improv (improvised theatre), with interesting and varied examples from projects we've worked on and ones we haven't, and some we'll improvise!",
+    "speakers": [
+      {
+        "name": "Alec Shea",
+        "company": "Alec Shea - Music / Voice / Sound",
+        "bio": "One of the beautiful things about game narratives is their ability to give the player choices. But very often, the choices we're presented with can be trivial, pointless, obvious, or just leaving you questioning why they're there at all. In this talk, we will explore a new frame of mind for designing choices in game narratives – inspired by the art of improv (improvised theatre), with interesting and varied examples from projects we've worked on and ones we haven't, and some we'll improvise!"
+      },
+      {
+        "name": "Nikolai Hilz"
+      }
+    ]
+  },
+  {
+    "title": "Evolving Passion Projects Into A Business",
+    "room": "Creative Hall",
+    "day": "2025-12-06",
+    "start_time": "13:00",
+    "end_time": "13:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "Patrik will share his journey of evolving his passion project into a business with thousands of users world wide. Sim Companies, an online business simulation game, boasts over 25,000 daily active users and 4.8/5 rating with millions of downloads across mobile platforms. Do you want to know which challenges the project faced, and how we overcome them? Which marketing approaches worked, and which didn't? How to use data-centric approach to set up your project for success?",
+    "speakers": [
+      {
+        "name": "Patrik Beck",
+        "company": "Sim Companies s.r.o.",
+        "bio": "Patrik started his career as a C/C++ engineer in the finance industry in the UK and New York. Shortly after moving to Prague, he started working on a browser-based game hobby project, which eventually led to the founding of the multiplayer business simulation strategy game, Sim Companies."
+      }
+    ]
+  },
+  {
+    "title": "The Quest for Blind-Inclusive Game Design",
+    "room": "Creative Hall",
+    "day": "2025-12-06",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Game/Design",
+    "abstract": "In this talk, I share my unexpected journey during the development of 1428: Shadows over Silesia, where I coincidentally found myself diving deep into accessibility for blind players despite having no grand ambitions or extensive experience. Join me to uncover the lessons learned from this endeavor and explore whether your indie or AAA game can be made accessible to blind players and whether it’s worth doing.",
+    "speakers": [
+      {
+        "name": "Petr Kubíček",
+        "company": "KUBI Games",
+        "bio": "Self-taught game designer and programmer with several years of experience. Creator of the medieval action adventure game 1428: Shadows over Silesia.. Currently, besides his own projects, he also works at Bohemia Interactive. Some of the games Petr worked on: Crime Boss: Rockay City, Arma 4, Vigor, 1428: Shadows over Silesia, Kubikon 3D"
+      }
+    ]
+  },
+  {
+    "title": "The Effective Hiring At Monster Couch And Why It Works",
+    "room": "Creative Hall",
+    "day": "2025-12-06",
+    "start_time": "15:00",
+    "end_time": "15:50",
+    "language": "English",
+    "level": "Business",
+    "abstract": "The first step of recruitment is the decision not to hire at all. If you, however, decide on recruitment, come and listen to how an indie studio can do it while staying focused on great people and keeping its retention high. In this talk, it will be shown how the book \"The Effective Hiring Manager\" is put into practice in Monster Couch, with strong emphasis on the team manager's role in the recruitment process.",
+    "speakers": [
+      {
+        "name": "Michal Karzynski",
+        "company": "Monster Couch",
+        "bio": "Operations Manager in the Polish studio Monster Couch. With years of experience in developing the Pyrkon Fan Festival and building up other organisations, I am currently focusing on all operational procedures and employee growth in Monster Couch."
+      }
+    ]
+  },
+  {
+    "title": "GDS Prague Pitching Session",
+    "room": "Creative Hall",
+    "day": "2025-12-06",
+    "start_time": "16:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Industry Support",
+    "abstract": "The best and bravest of GDS Prague Indie Expo will present their pitch decks in lightning rounds of presentations, followed by questions and discussions with a professional jury. All to compete for a prime spot of the most appreciated pitch of GDS Prague 2025!",
+    "speakers": [
+      {
+        "name": "Vladimír Geršl",
+        "company": "Cyber Sail Consulting",
+        "bio": "Vladimír Geršl is a game producer, entrepreneur, and CEO of Cyber Sail Consulting. He has nearly 25 years of experience in the games business and has worked long-term with companies such as Activision, Sony, and Plaion. He directly led eight premium titles and helped dozens of studios secure publishing or investment. He runs one of the globally leading consulting agencies in the games industry and is actively involved in industry lobbying in both the Czech Republic and the EU."
+      },
+      {
+        "name": "Anton Ravin"
+      },
+      {
+        "name": "Guillaume Jamet"
+      },
+      {
+        "name": "Paweł Wojciechowski"
+      }
+    ]
+  },
+  {
+    "title": "Sticks, Ropes and high hopes - Intro",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:25",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "Together with GDA CZ, Fuchs+Dachs game dev studio is organising a small one day EVENT that would be a part of this year’s Game Developers Session Conference, in Prague. We have one whole day specially organised for small teams, students and young game dev enthusiasts that we would like to greatly benefit from GDS 2025. The event is aimed for anyone interested in working in small teams, studying game design or small indie game dev teams and studios. The first part will be about the upcoming game MAW.",
+    "speakers": [
+      {
+        "name": "Miroslav Prokop",
+        "company": "Indie",
+        "bio": "Hi, I'm Míra, but usually I go by the nickname Zakroutil. I'm an indie developer from Czechia, I study game design at FAMU and I'm also helping out with some secret stuff over at Fuchs+Dachs Games... And I'm developing my own noir adventure called \"MAW\" as well."
+      }
+    ]
+  },
+  {
+    "title": "Bell Hat Games and games for children with ADHD",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "11:00",
+    "end_time": "11:25",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "I will talk about my indie game development experiences and developing a game for children",
+    "speakers": [
+      {
+        "name": "Matěj Hes",
+        "company": "Bell Hat Games",
+        "bio": "Matěj Hes is the creative director of Bell Hat Games and a student of Game design at FAMU"
+      }
+    ]
+  },
+  {
+    "title": "Regarding Sasha and Student Games Festival",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "12:30",
+    "end_time": "12:55",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "Our game Regarding Sasha got nominated for Student Game Awards in Warsaw and we would like to talk about our experience at the event.",
+    "speakers": [
+      {
+        "name": "Michaela Jílková",
+        "bio": "I'm a student and I'm currently studying Game Art in SŠUD."
+      }
+    ]
+  },
+  {
+    "title": "The creation of Mařena",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "13:00",
+    "end_time": "13:25",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "Mařena is an absurd dungeon crawler about a perpetually drunk heroine who is a bit out of control in her life – and yet she keeps going. The game was created out of pure joy of creation and friendship: we met at a gamejam, sat down with a human and creative approach, and our joint project spontaneously grew out of that. The lecture is about everything that went into the creation of our first long-term project.",
+    "speakers": [
+      {
+        "name": "Daniel Mrázik",
+        "bio": "Daniel Mrázik is a student in the Design and Digital Technologies studio at UMPRUM. In his work, he focuses mainly on graphics for video games, illustration, and animation, with a specialization in character design. As a guy from central Slovakia - a region full of castles and chateaus, he is fascinated by the connection between folk symbols, cryptids, and medieval mystique with game art, which is fully reflected in his latest project, Mařena."
+      },
+      {
+        "name": "Zuzana Darjaninová"
+      },
+      {
+        "name": "Mikuláš Petrík"
+      }
+    ]
+  },
+  {
+    "title": "Sticks, Ropes & Impostor Syndrome",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "13:30",
+    "end_time": "13:55",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "As a part of the \"Sticks, Ropes & High Hopes\" event at GDS, I would like to look back at my very chaotic game dev journey and the times when facing my self-doubts has led to some of the most important events of my life. This is going to be a short and informal (and hopefully inspirational) talk, no prerequisites required!",
+    "speakers": [
+      {
+        "name": "Vojta Siman",
+        "company": "FiolaSoft Studio / FAMU Game Design",
+        "bio": "Level designer, music composer and sound designer. I worked on BLACKHOLE by FiolaSoft Studio and for the past few years we have been working on an action adventure match 3 FPS called MATCHO. This year I also enrolled at FAMU Game Design."
+      }
+    ]
+  },
+  {
+    "title": "Panel Discussion - current situation of the indie game industry in Czech Republic",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes",
+    "abstract": "Together with GDA CZ, Fuchs+Dachs game dev studio is organising a small one day EVENT that would be a part of this year’s Game Developers Session Conference, in Prague. We have one whole day specially organised for small teams, students and young game dev enthusiasts that we would like to greatly benefit from GDS 2025. The event is aimed for anyone interested in working in small teams, studying game design or small indie game dev teams and studios.",
+    "speakers": [
+      {
+        "name": "Lukáš Kolek",
+        "company": "Charles Games s.r.o.",
+        "bio": "Lukáš Kolek is the co-founder and CEO of Charles Games, the studio behind 10+ indie titles including the award-winning Playing Kafka, Svoboda 1945: Liberation and Beecarbonize, enjoyed by hundreds of thousands of players worldwide. Charles Games creates experiences that tackle serious themes, from historical trauma to the climate crisis.\n"
+      },
+      {
+        "name": "Katarzyna Kouba Sanojca"
+      },
+      {
+        "name": "Sanja Čežek"
+      }
+    ]
+  },
+  {
+    "title": "Indie Play & Interviews",
+    "room": "Indie Hall",
+    "day": "2025-12-06",
+    "start_time": "15:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes"
+  },
+  {
+    "title": "Indie Play & Interviews",
+    "room": "Indie Hall",
+    "day": "2025-12-05",
+    "start_time": "11:00",
+    "end_time": "17:50",
+    "language": "English",
+    "level": "Sticks, Ropes and High Hopes"
   }
 ]
