@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 import '../models/session.dart';
 import '../services/agenda_service.dart';
 import '../widgets/session_card.dart';
+import '../widgets/level_filter_dialog.dart';
 
 class HomeScreen extends StatefulWidget {
   final AgendaService agendaService;
@@ -33,6 +34,52 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     return Scaffold(
       appBar: AppBar(
         title: const Text('GDS Prague Agenda'),
+        actions: [
+          Stack(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.filter_list),
+                tooltip: 'Filter by Level',
+                onPressed: () async {
+                  final result = await showDialog<bool>(
+                    context: context,
+                    builder: (context) => LevelFilterDialog(
+                      agendaService: widget.agendaService,
+                    ),
+                  );
+                  if (result == true) {
+                    setState(() {});
+                  }
+                },
+              ),
+              if (widget.agendaService.hasActiveFilters)
+                Positioned(
+                  right: 8,
+                  top: 8,
+                  child: Container(
+                    padding: const EdgeInsets.all(4),
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      shape: BoxShape.circle,
+                    ),
+                    constraints: const BoxConstraints(
+                      minWidth: 16,
+                      minHeight: 16,
+                    ),
+                    child: Text(
+                      '${widget.agendaService.selectedLevels.length}',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 10,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ],
         bottom: TabBar(
           controller: _tabController,
           tabs: const [
@@ -68,6 +115,8 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       child: ListView(
         padding: const EdgeInsets.symmetric(vertical: 16),
         children: [
+          if (widget.agendaService.hasActiveFilters)
+            _buildFilterBanner(),
           if (currentSessions.isNotEmpty) ...[
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -122,6 +171,43 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     );
   }
 
+  Widget _buildFilterBanner() {
+    return Container(
+      margin: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.primaryContainer,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        children: [
+          Icon(
+            Icons.filter_list,
+            size: 20,
+            color: Theme.of(context).colorScheme.primary,
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              'Filtering by: ${widget.agendaService.selectedLevels.join(', ')}',
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  ),
+            ),
+          ),
+          IconButton(
+            icon: const Icon(Icons.close, size: 20),
+            tooltip: 'Clear filters',
+            onPressed: () async {
+              await widget.agendaService.clearLevelFilters();
+              setState(() {});
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildByDayTab() {
     final days = widget.agendaService.getDays();
 
@@ -129,24 +215,26 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       return const Center(child: Text('No sessions available'));
     }
 
-    return ListView.builder(
-      itemCount: days.length,
-      itemBuilder: (context, index) {
-        final day = days[index];
-        final sessions = widget.agendaService.getSessionsByDay(day);
-        final date = DateTime.parse(day);
-        final formattedDate = DateFormat('EEEE, MMMM d, y').format(date);
+    return ListView(
+      children: [
+        if (widget.agendaService.hasActiveFilters)
+          _buildFilterBanner(),
+        ...days.map((day) {
+          final sessions = widget.agendaService.getSessionsByDay(day);
+          final date = DateTime.parse(day);
+          final formattedDate = DateFormat('EEEE, MMMM d, y').format(date);
 
-        return ExpansionTile(
-          initiallyExpanded: index == 0,
-          title: Text(
-            formattedDate,
-            style: const TextStyle(fontWeight: FontWeight.bold),
-          ),
-          subtitle: Text('${sessions.length} sessions'),
-          children: _buildSessionBlocks(sessions),
-        );
-      },
+          return ExpansionTile(
+            initiallyExpanded: days.indexOf(day) == 0,
+            title: Text(
+              formattedDate,
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('${sessions.length} sessions'),
+            children: _buildSessionBlocks(sessions),
+          );
+        }),
+      ],
     );
   }
 
@@ -241,27 +329,29 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       return const Center(child: Text('No rooms available'));
     }
 
-    return ListView.builder(
-      itemCount: rooms.length,
-      itemBuilder: (context, index) {
-        final room = rooms[index];
-        final sessions = widget.agendaService.getSessionsByRoom(room);
+    return ListView(
+      children: [
+        if (widget.agendaService.hasActiveFilters)
+          _buildFilterBanner(),
+        ...rooms.map((room) {
+          final sessions = widget.agendaService.getSessionsByRoom(room);
 
-        return ExpansionTile(
-          title: Text(
-            room,
-            style: const TextStyle(fontWeight: FontWeight.bold),
-          ),
-          subtitle: Text('${sessions.length} sessions'),
-          children: sessions
-              .map((session) => SessionCard(
-                    session: session,
-                    agendaService: widget.agendaService,
-                    onStarChanged: () => setState(() {}),
-                  ))
-              .toList(),
-        );
-      },
+          return ExpansionTile(
+            title: Text(
+              room,
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('${sessions.length} sessions'),
+            children: sessions
+                .map((session) => SessionCard(
+                      session: session,
+                      agendaService: widget.agendaService,
+                      onStarChanged: () => setState(() {}),
+                    ))
+                .toList(),
+          );
+        }),
+      ],
     );
   }
 
@@ -305,37 +395,39 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     // Sort days
     final sortedDays = sessionsByDay.keys.toList()..sort();
 
-    return ListView.builder(
-      itemCount: sortedDays.length,
-      itemBuilder: (context, index) {
-        final day = sortedDays[index];
-        final sessions = sessionsByDay[day]!;
-        sessions.sort((a, b) {
-          final aTime = a.startDateTime;
-          final bTime = b.startDateTime;
-          if (aTime == null || bTime == null) return 0;
-          return aTime.compareTo(bTime);
-        });
+    return ListView(
+      children: [
+        if (widget.agendaService.hasActiveFilters)
+          _buildFilterBanner(),
+        ...sortedDays.map((day) {
+          final sessions = sessionsByDay[day]!;
+          sessions.sort((a, b) {
+            final aTime = a.startDateTime;
+            final bTime = b.startDateTime;
+            if (aTime == null || bTime == null) return 0;
+            return aTime.compareTo(bTime);
+          });
 
-        final date = DateTime.parse(day);
-        final formattedDate = DateFormat('EEEE, MMMM d, y').format(date);
+          final date = DateTime.parse(day);
+          final formattedDate = DateFormat('EEEE, MMMM d, y').format(date);
 
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(16),
-              child: Text(
-                formattedDate,
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: Text(
+                  formattedDate,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                ),
               ),
-            ),
-            ..._buildSessionBlocks(sessions),
-          ],
-        );
-      },
+              ..._buildSessionBlocks(sessions),
+            ],
+          );
+        }),
+      ],
     );
   }
 }
