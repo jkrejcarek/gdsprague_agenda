@@ -76,7 +76,8 @@ class _SessionDetailScreenState extends State<SessionDetailScreen> {
                 Expanded(
                   child: Row(
                     children: [
-                      Icon(Icons.label, size: 20, color: Colors.grey[600]),
+                      Icon(Icons.label, size: 20,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant),
                       const SizedBox(width: 8),
                       Flexible(
                         child: Container(
@@ -154,7 +155,8 @@ class _SessionDetailScreenState extends State<SessionDetailScreen> {
   Widget _buildInfoChip(IconData icon, String label) {
     return Row(
       children: [
-        Icon(icon, size: 20, color: Colors.grey[600]),
+        Icon(icon, size: 20,
+          color: Theme.of(context).colorScheme.onSurfaceVariant),
         const SizedBox(width: 8),
         Expanded(
           child: Text(
