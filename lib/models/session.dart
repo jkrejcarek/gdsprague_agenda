@@ -134,6 +134,8 @@ class Session {
         return const Color(0xFF9BBA33);
       case "Business":
         return const Color(0xFFDE6E81);
+      case "Sticks, Ropes and High Hopes":
+        return const Color(0xFFc284fc);
       default:
         return Colors.grey;
     }
