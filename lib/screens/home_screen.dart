@@ -215,6 +215,9 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       return const Center(child: Text('No sessions available'));
     }
 
+    final today = DateTime.now();
+    final todayDateOnly = DateTime(today.year, today.month, today.day);
+
     return ListView(
       children: [
         if (widget.agendaService.hasActiveFilters)
@@ -224,8 +227,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           final date = DateTime.parse(day);
           final formattedDate = DateFormat('EEEE, MMMM d, y').format(date);
 
+          // Collapse days that are in the past (before today)
+          final dateOnly = DateTime(date.year, date.month, date.day);
+          final isPastDay = dateOnly.isBefore(todayDateOnly);
+
           return ExpansionTile(
-            initiallyExpanded: days.indexOf(day) == 0,
+            initiallyExpanded: !isPastDay,
             title: Text(
               formattedDate,
               style: const TextStyle(fontWeight: FontWeight.bold),
