@@ -1,5 +1,6 @@
 import 'speaker.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class Session {
   final String title;
@@ -107,6 +108,16 @@ class Session {
     final start = startDateTime;
     if (start == null) return false;
     return start.isAfter(DateTime.now());
+  }
+
+  String getDayOfWeek() {
+    if (day.isEmpty) return '';
+    try {
+      final date = DateTime.parse(day);
+      return DateFormat('EEE').format(date); // Returns "Mon", "Tue", etc.
+    } catch (e) {
+      return '';
+    }
   }
 
   Color getLevelColor() {

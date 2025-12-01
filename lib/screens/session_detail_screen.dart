@@ -47,29 +47,54 @@ class _SessionDetailScreenState extends State<SessionDetailScreen> {
                   ),
             ),
             const SizedBox(height: 16),
-            _buildInfoChip(Icons.access_time,
-                '${widget.session.startTime} - ${widget.session.endTime}'),
-            const SizedBox(height: 8),
-            _buildInfoChip(Icons.room, widget.session.room),
-            const SizedBox(height: 8),
-            _buildInfoChip(Icons.language, widget.session.language),
-            const SizedBox(height: 8),
+            // Display details in 2x2 grid
             Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Icon(Icons.label, size: 20, color: Colors.grey[600]),
-                const SizedBox(width: 8),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                  decoration: BoxDecoration(
-                    color: widget.session.getLevelColor(),
-                    borderRadius: BorderRadius.circular(16),
+                Expanded(
+                  child: _buildInfoChip(
+                    Icons.access_time,
+                    widget.session.getDayOfWeek().isNotEmpty
+                        ? '${widget.session.getDayOfWeek()} ${widget.session.startTime} - ${widget.session.endTime}'
+                        : '${widget.session.startTime} - ${widget.session.endTime}',
                   ),
-                  child: Text(
-                    widget.session.level,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: _buildInfoChip(Icons.language, widget.session.language),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: _buildInfoChip(Icons.room, widget.session.room),
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Row(
+                    children: [
+                      Icon(Icons.label, size: 20, color: Colors.grey[600]),
+                      const SizedBox(width: 8),
+                      Flexible(
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                          decoration: BoxDecoration(
+                            color: widget.session.getLevelColor(),
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          child: Text(
+                            widget.session.level,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],

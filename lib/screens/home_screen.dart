@@ -115,11 +115,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               ),
             ),
             const SizedBox(height: 8),
-            ...todaySessions.map((session) => SessionCard(
-                  session: session,
-                  agendaService: widget.agendaService,
-                  onStarChanged: () => setState(() {}),
-                )),
+            ..._buildSessionBlocks(todaySessions),
           ],
         ],
       ),
@@ -148,16 +144,94 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
             style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           subtitle: Text('${sessions.length} sessions'),
-          children: sessions
-              .map((session) => SessionCard(
-                    session: session,
-                    agendaService: widget.agendaService,
-                    onStarChanged: () => setState(() {}),
-                  ))
-              .toList(),
+          children: _buildSessionBlocks(sessions),
         );
       },
     );
+  }
+
+  List<Widget> _buildSessionBlocks(List<Session> sessions) {
+    if (sessions.isEmpty) return [];
+
+    // Group sessions by start time
+    final Map<String, List<Session>> sessionBlocks = {};
+    for (var session in sessions) {
+      final startTime = session.startTime;
+      if (!sessionBlocks.containsKey(startTime)) {
+        sessionBlocks[startTime] = [];
+      }
+      sessionBlocks[startTime]!.add(session);
+    }
+
+    // Sort by start time
+    final sortedStartTimes = sessionBlocks.keys.toList()..sort();
+
+    // Build widgets with visual separation between blocks
+    final List<Widget> widgets = [];
+    for (int i = 0; i < sortedStartTimes.length; i++) {
+      final startTime = sortedStartTimes[i];
+      final blockSessions = sessionBlocks[startTime]!;
+
+      // Add time block header
+      widgets.add(
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          margin: EdgeInsets.only(top: i == 0 ? 0 : 8),
+          decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.3),
+            border: Border(
+              left: BorderSide(
+                color: Theme.of(context).colorScheme.primary,
+                width: 4,
+              ),
+            ),
+          ),
+          child: Row(
+            children: [
+              Icon(
+                Icons.schedule,
+                size: 20,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(width: 8),
+              Text(
+                startTime,
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                '(${blockSessions.length} session${blockSessions.length > 1 ? 's' : ''})',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
+                    ),
+              ),
+            ],
+          ),
+        ),
+      );
+
+      // Add sessions in this block
+      for (var session in blockSessions) {
+        widgets.add(
+          SessionCard(
+            session: session,
+            agendaService: widget.agendaService,
+            onStarChanged: () => setState(() {}),
+          ),
+        );
+      }
+
+      // Add spacing after each block (except the last one)
+      if (i < sortedStartTimes.length - 1) {
+        widgets.add(const SizedBox(height: 16));
+      }
+    }
+
+    return widgets;
   }
 
   Widget _buildByRoomTab() {
@@ -258,11 +332,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                     ),
               ),
             ),
-            ...sessions.map((session) => SessionCard(
-                  session: session,
-                  agendaService: widget.agendaService,
-                  onStarChanged: () => setState(() {}),
-                )),
+            ..._buildSessionBlocks(sessions),
           ],
         );
       },

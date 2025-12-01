@@ -82,7 +82,9 @@ class _SessionCardState extends State<SessionCard> {
                   Icon(Icons.access_time, size: 16, color: Colors.grey[600]),
                   const SizedBox(width: 4),
                   Text(
-                    '${widget.session.startTime} - ${widget.session.endTime}',
+                    widget.session.getDayOfWeek().isNotEmpty
+                        ? '${widget.session.getDayOfWeek()} ${widget.session.startTime} - ${widget.session.endTime}'
+                        : '${widget.session.startTime} - ${widget.session.endTime}',
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
                   const SizedBox(width: 16),
