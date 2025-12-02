@@ -1,4 +1,6 @@
 import 'speaker.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class Session {
   final String title;
@@ -106,6 +108,37 @@ class Session {
     final start = startDateTime;
     if (start == null) return false;
     return start.isAfter(DateTime.now());
+  }
+
+  String getDayOfWeek() {
+    if (day.isEmpty) return '';
+    try {
+      final date = DateTime.parse(day);
+      return DateFormat('EEE').format(date); // Returns "Mon", "Tue", etc.
+    } catch (e) {
+      return '';
+    }
+  }
+
+  Color getLevelColor() {
+    switch (level) {
+      case 'Industry Support':
+        return const Color(0xFFC03232);
+      case 'Legal Summit':
+        return const Color(0xFFC66F40);
+      case 'Game/Design':
+        return const Color(0xFFE7AD2F);
+      case 'Technical':
+        return const Color(0xFF009EE2);
+      case 'Art/Audio':
+        return const Color(0xFF9BBA33);
+      case "Business":
+        return const Color(0xFFDE6E81);
+      case "Sticks, Ropes and High Hopes":
+        return const Color(0xFFc284fc);
+      default:
+        return Colors.grey;
+    }
   }
 }
 

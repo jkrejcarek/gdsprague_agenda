@@ -23,11 +23,15 @@ class _SessionCardState extends State<SessionCard> {
   @override
   Widget build(BuildContext context) {
     final isNow = widget.session.isHappeningNow();
+    final levelColor = widget.session.getLevelColor();
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       elevation: isNow ? 4 : 1,
-      color: isNow ? Colors.blue.shade50 : null,
+      color: isNow
+          ? (isDarkMode ? Colors.blue.shade900 : Colors.blue.shade50)
+          : null,
       child: InkWell(
         onTap: () async {
           await Navigator.push(
@@ -78,14 +82,18 @@ class _SessionCardState extends State<SessionCard> {
               const SizedBox(height: 8),
               Row(
                 children: [
-                  Icon(Icons.access_time, size: 16, color: Colors.grey[600]),
+                  Icon(Icons.access_time, size: 16,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant),
                   const SizedBox(width: 4),
                   Text(
-                    '${widget.session.startTime} - ${widget.session.endTime}',
+                    widget.session.getDayOfWeek().isNotEmpty
+                        ? '${widget.session.getDayOfWeek()} ${widget.session.startTime} - ${widget.session.endTime}'
+                        : '${widget.session.startTime} - ${widget.session.endTime}',
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
                   const SizedBox(width: 16),
-                  Icon(Icons.room, size: 16, color: Colors.grey[600]),
+                  Icon(Icons.room, size: 16,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant),
                   const SizedBox(width: 4),
                   Expanded(
                     child: Text(
@@ -103,8 +111,13 @@ class _SessionCardState extends State<SessionCard> {
                     Chip(
                       label: Text(
                         widget.session.level,
-                        style: const TextStyle(fontSize: 12),
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
+                      backgroundColor: levelColor,
                       padding: const EdgeInsets.all(0),
                       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                     ),
@@ -126,7 +139,8 @@ class _SessionCardState extends State<SessionCard> {
                 const SizedBox(height: 8),
                 Row(
                   children: [
-                    Icon(Icons.person, size: 16, color: Colors.grey[600]),
+                    Icon(Icons.person, size: 16,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant),
                     const SizedBox(width: 4),
                     Expanded(
                       child: Text(
@@ -147,7 +161,7 @@ class _SessionCardState extends State<SessionCard> {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Theme.of(context).colorScheme.primary,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   child: const Text(
