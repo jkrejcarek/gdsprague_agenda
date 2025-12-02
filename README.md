@@ -4,7 +4,7 @@ A Flutter Android app for viewing and managing the GDS Prague conference agenda.
 
 ## Features
 
-### 📱 Four Main Views
+### 📱 Five Main Views
 
 1. **Overview Tab**
    - Shows currently happening sessions
@@ -26,7 +26,20 @@ A Flutter Android app for viewing and managing the GDS Prague conference agenda.
    - Sessions chronologically ordered
    - Useful for finding what's happening in a specific location
 
-4. **My Schedule Tab**
+4. **Timeline Tab** ⭐ NEW
+   - Visual grid-based schedule view
+   - **Time on Y-axis**: Hour-based time slots from first to last session
+   - **Rooms on X-axis**: All conference rooms in standard order (Hangar 13 Hall, Panorama Hall, Lecture Hall, Summit Hall, Creative Hall, Indie Hall)
+   - **Color-coded sessions**: Each session displayed with its level color
+   - **Proportional sizing**: Session cards sized based on actual duration
+   - **Day selector**: Switch between conference days with segmented button
+   - **Synchronized scrolling**: Time column and session grid scroll together vertically
+   - **Horizontal scrolling**: Pan across rooms to see full schedule
+   - **Interactive cards**: Tap any session to view full details
+   - **Duration display**: Each card shows session length in minutes
+   - Perfect for visualizing the entire conference schedule at a glance
+
+5. **My Schedule Tab**
    - View all sessions you've starred
    - Organized by day and time blocks
    - Helps identify scheduling conflicts (overlapping sessions)
@@ -88,7 +101,7 @@ The app includes a powerful filtering system to help you focus on relevant conte
   - Banner at top of each tab displays which levels are selected
   - Color-coded checkboxes in filter dialog
 - **Persistence**: Filter selections are saved and restored between app sessions
-- **Cross-View Application**: Filters apply to all tabs (Overview, By Day, By Room, My Schedule)
+- **Cross-View Application**: Filters apply to all tabs (Overview, By Day, By Room, Timeline, My Schedule)
 - **Quick Access**: Tap the filter icon in the app bar to open the filter dialog
 - **Easy Clearing**: 
   - "Clear All" button in filter dialog
