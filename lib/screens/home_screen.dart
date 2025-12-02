@@ -4,6 +4,7 @@ import '../models/session.dart';
 import '../services/agenda_service.dart';
 import '../widgets/session_card.dart';
 import '../widgets/level_filter_dialog.dart';
+import '../widgets/timeline_view.dart';
 
 class HomeScreen extends StatefulWidget {
   final AgendaService agendaService;
@@ -20,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 4, vsync: this);
+    _tabController = TabController(length: 5, vsync: this);
   }
 
   @override
@@ -86,6 +87,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
             Tab(icon: Icon(Icons.event), text: 'Overview'),
             Tab(icon: Icon(Icons.calendar_today), text: 'By Day'),
             Tab(icon: Icon(Icons.meeting_room), text: 'By Room'),
+            Tab(icon: Icon(Icons.grid_on), text: 'Timeline'),
             Tab(icon: Icon(Icons.star), text: 'My Schedule'),
           ],
         ),
@@ -96,6 +98,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           _buildOverviewTab(),
           _buildByDayTab(),
           _buildByRoomTab(),
+          TimelineView(agendaService: widget.agendaService),
           _buildMyScheduleTab(),
         ],
       ),

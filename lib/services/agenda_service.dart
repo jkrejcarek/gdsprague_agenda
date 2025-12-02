@@ -7,6 +7,17 @@ import '../models/session.dart';
 class AgendaService {
   static const String _starredKey = 'starred_sessions';
   static const String _levelFilterKey = 'level_filters';
+
+  // Preferred room order for display
+  static const List<String> roomOrder = [
+    'Hangar 13 Hall',
+    'Panorama Hall',
+    'Lecture Hall',
+    'Summit Hall',
+    'Creative Hall',
+    'Indie Hall',
+  ];
+
   List<Session> _sessions = [];
   Set<String> _starredSessionIds = {};
   Set<String> _selectedLevels = {};
@@ -132,13 +143,27 @@ class AgendaService {
   }
 
   List<String> getRooms() {
-    final rooms = _sessions
+    final availableRooms = _sessions
         .where((s) => s.room.isNotEmpty)
         .map((s) => s.room)
-        .toSet()
-        .toList();
-    rooms.sort();
-    return rooms;
+        .toSet();
+
+    // Return rooms in preferred order, followed by any unexpected rooms
+    final orderedRooms = <String>[];
+    for (var room in roomOrder) {
+      if (availableRooms.contains(room)) {
+        orderedRooms.add(room);
+      }
+    }
+
+    // Add any rooms not in the preferred order
+    for (var room in availableRooms) {
+      if (!orderedRooms.contains(room)) {
+        orderedRooms.add(room);
+      }
+    }
+
+    return orderedRooms;
   }
 
   List<Session> getSessionsByDay(String day) {
